@@ -7979,7 +7979,6 @@ Target Metric:    Precision@50 on held-out client portfolios
     <span class="s1">'content_age_days'</span><span class="p">:</span> <span class="n">df</span><span class="p">[</span><span class="s1">'content_age_days'</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mf">180.0</span><span class="p">),</span>
     <span class="s1">'ga4_data_available'</span><span class="p">:</span> <span class="n">df</span><span class="p">[</span><span class="s1">'ga4_data_available'</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">),</span>
     <span class="s1">'log_impressions'</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">log1p</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">'impressions_30d'</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)),</span>
-    <span class="s1">'log_clicks'</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">log1p</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">'clicks_30d'</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span>
 <span class="p">})</span>
 <span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">'is_declining_label'</span><span class="p">]</span>
 <span class="n">gss</span> <span class="o">=</span> <span class="n">GroupShuffleSplit</span><span class="p">(</span><span class="n">n_splits</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.20</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
@@ -8237,7 +8236,7 @@ https://aatka-saleem.github.io/flyrank-ml-internship-starter/
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=fff8bb70">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6c56384f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8301,7 +8300,7 @@ https://aatka-saleem.github.io/flyrank-ml-internship-starter/
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b7705d9d">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=470c61ff">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
